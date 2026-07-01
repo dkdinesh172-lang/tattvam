@@ -4,7 +4,7 @@ import { Clock, Sun, ArrowDown, ArrowUp, ShieldCheck } from "lucide-react";
 
 const items = [
   { icon: Clock, title: "Operating Hours", desc: "Monday – Friday: 9:00 AM – 5:00 PM", color: "bg-accent" },
-  { icon: Sun, title: "Morning Drop-Off", desc: "9:00 – 9:20 AM (Late arrivals require prior notice)", color: "bg-light-peach" },
+  { icon: Sun, title: "Morning Drop-Off", desc: "9:00 – 9:15 AM (Late arrivals require prior notice)", color: "bg-light-peach" },
   { icon: ArrowDown, title: "Afternoon Pick-Up", desc: "Prep-0 & Prep-1: 12:30 – 12:45 PM\nPrep-2 & Prep-3: 1:30 – 1:45 PM", color: "bg-baby-blue" },
   { icon: ArrowUp, title: "Extended Day Care", desc: "Available 1:00 – 6:00 PM (Additional fees apply)", color: "bg-lavender" },
   { icon: ShieldCheck, title: "Pick-Up Authorization", desc: "Only listed guardians may pick up a child (Guardian card required)", color: "bg-accent" },

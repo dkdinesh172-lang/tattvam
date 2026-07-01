@@ -1,5 +1,5 @@
 import { Heart, MapPin, Phone, Clock, Mail } from "lucide-react";
-import logo from "@/assets/tattvam-logo-new2.png";
+import logo from "@/assets/tattvam-logo-footer.png";
 
 const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
   e.preventDefault();

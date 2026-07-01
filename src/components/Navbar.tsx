@@ -29,10 +29,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-md shadow-sm">
-      <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md border-b border-gray-200">
+	  <div className="w-full flex items-center justify-between h-20 md:h-24 pl-0 pr-6">
         <a href="#home" onClick={(e) => scrollToSection(e, "home")} className="flex items-center gap-2">
-          <img src={logo} alt="Tattvam Logo" className="h-12 md:h-14 w-auto object-contain" />
+          <img src={logo} alt="Tattvam Logo" className="h-16 md:h-20 w-auto object-contain" />
         </a>
 
         <div className="hidden lg:flex items-center gap-8">
